@@ -138,13 +138,12 @@ sudo ufw enable OpenSSH
 
 2. Se necessário, ajuste as configurações do PHP, segundo a pagina de inicial:
 
-![](screenshot_2.png)
-![](screenshot_3.png)
-
 ```bash
 sudo cp /etc/php/8.2/fpm/php.ini /etc/php/8.2/fpm/php.TEMPLATE.ini
 sudo nano /etc/php/8.2/fpm/php.ini
 ```
+
+![](screenshot_2.png)
 
 4. Configurar a o acesso a base de dados:
 
